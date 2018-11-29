@@ -1,0 +1,94 @@
+Fonts: Karla-Regular, Karla-Bold
+
+Desktop font sizes:
+
+Body: 30px/1.2
+Marquee: 26px/1
+Hero p: 32px
+H2: 40px/1.2
+H1: 60px/1.2
+Uppercase: 28px/1.2
+Footer H1: 30px/1.2
+Footer p: 20px/1.2
+
+Mobile font sizes:
+
+Body: 22px/1.2
+Marquee: 24px/1
+Hero p: 24px
+H2: 30px/1.2
+H1: 30px/1.2
+Uppercase: 20px/1.2
+Footer H1: 30px/1.2
+Footer p: 22px/1.2
+
+Colors:
+
+Light Pink: #FFDCD9
+Light Green: #B7EEE2
+Dark Green: #86D7C8
+Blue: #3363A7
+Dark Pink: #FFB5AF
+Light Peach: #FFD7C8
+Black: #000000
+
+Page copy:
+
+NAV
+Info
+Join
+
+MARQUEE
+NEW Tournament coming soon! — NEW Tournament coming soon! — 
+
+Buttons
+Sign me up!
+
+SECTION 1
+Ladies Racketlon Club
+
+SECTION 2
+What is Racketlon?
+
+Racketlon is a combination of four racket sports, all rolled into one! It’s Table Tennis, Badminton, Squash and Tennis. Woah, that was a mouthful!Come and join one of our ladies Racketlon clubs to play a series of competitive sports, have regular socials and racket parties, meet like-minded women and just sweat you a** off, all whilst having fun!
+
+SECTION 3
+We supply the rackets
+
+Table Tennis
+Badminton
+Squash
+Tennis
+
+SECTION 4
+Weekly Timetable
+
+We all have busy lives and find it hard to fit in practise. No sweat, just find a time that suits you. 
+
+Monday: 7.30—10am, 12—2pm, 5—9pm
+Tuesday: 7.30—10am, 12—2pm, 5—9pm
+Wednesday: 7.30—10am, 12—2pm, 5—9pm
+Thursday: 7.30—10am, 12—2pm, 5—9pm
+Friday: 9am—Close (11pm)
+Saturday: 9am—Close (11pm)
+Sunday: 10.30am—12pm, 3—7pm
+
+SECTION 5
+Tournaments
+
+We host tri-monthly tournaments, where you can let off some steam and compete for the first place Racquettes Racketlon trophy!   NEW Tournament coming soon...
+
+SECTION 6
+Membership
+Become a member of your local Racketlon club, reap the rewards and bask in all its glory!
+
+FOOTER
+Contact
+@racquettesracketlon
+hello@racquettes.com
+
+Sign up for updates, you won't regret it…
+Email address goes here :)
+
+Back to top
+If you're still making your mind up…
