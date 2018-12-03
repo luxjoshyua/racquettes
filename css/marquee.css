@@ -1,0 +1,35 @@
+/* ==== marquee effect goes here ==== */
+.marquee {
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  display: block; 
+  width: 100%; 
+  font-size: 6.5vw; 
+  line-height: 1.1;
+  color: #fff;
+  font-weight: 500;
+  /* overflow: hidden; */
+  pointer-events: none; 
+  mix-blend-mode: difference; 
+}
+
+.marquee span {
+  position: relative;
+  animation: moveLeft 400s infinite; 
+  white-space: nowrap; 
+  display: block;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(-3000vw); 
+  }
+}
+
+.mix-difference {
+  mix-blend-mode: difference; 
+}

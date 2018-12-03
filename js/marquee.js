@@ -1,3 +1,4 @@
+// ==== marquee effect goes here ====
 // here we make a function called makeMarquee
 function makeMarquee() {
   const title = 'NEW Tournament coming soon'
@@ -19,3 +20,4 @@ makeMarquee()
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
+

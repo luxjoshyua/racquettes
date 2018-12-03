@@ -1,0 +1,294 @@
+body,
+html {
+  min-height: 100%;
+}
+
+/* we declare our variable inside a :root selector */
+:root {
+  /* give the variable a name and value (needs two -- in front) */
+  /* --orange: #ff3c15; */
+  --blue: #B7EEE2; 
+}
+
+*,
+*:before,
+*:after {
+  cursor: url('../img/cursor-red.svg'), auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFDCD9; 
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  line-height: 1.2px;
+  color: #B7EEE2; 
+  /* overflow: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none; }
+
+a {
+  text-decoration: none;
+  color: #414141;
+}
+
+a:hover {
+  color: #000; 
+}
+
+.visible {
+  opacity: 1;
+}
+
+ul, li {
+  list-style-type: none; 
+}
+
+/* ==== progress bar styling here ==== */
+.bar-1,
+.bar-3 {
+  position: fixed;
+  height: 8px;
+  background-color: #B7EEE2;
+  z-index: 900;
+  width: 0%;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); }
+
+.bar-2,
+.bar-4 {
+  position: fixed;
+  width: 8px; 
+  background-color: #FFB5AF; 
+  z-index: 900;
+  height: 0%;
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); }
+
+.bar-1 {
+  top: 0;
+  left: 0; }
+
+.bar-2 {
+  top: 0;
+  right: 0; }
+
+.bar-3 {
+  bottom: 0;
+  right: 0; }
+
+.bar-4 {
+  bottom: 0;
+  left: 0; }
+
+
+
+
+
+
+
+/* ==== container styling used on every section goes here ==== */
+.section {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.section-pad {
+  padding-left: 5vw;
+  padding-right: 5vw; 
+}
+
+.container {
+  max-width: 810px;
+  margin: auto; 
+}
+
+
+.logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 112px;
+}
+
+.logo-top {
+  max-width: 200px;
+
+
+}
+
+
+/* ==== hero section styling here ==== */
+
+.logo-wrapper {
+  position: relative;
+  
+}
+
+
+.hero-heading {
+  position: relative;
+  display: inline-block; 
+  top: -100px; 
+  
+}
+
+.heading {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+  font-family: 'HK-Grotesk-Bold', sans-serif;
+  /* font-size: 110px; */
+  font-size: 90px;
+  line-height: 1;
+}
+
+.wave-underline {
+  position: relative;
+  display: inline-block;
+  top: -70px;
+  width: 100%;
+}
+
+
+.social-copy-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* why flex here? */
+  display: flex; 
+  /* width: calc(1000vw - 6%);  */
+  width: 100vw; 
+  padding: 2% 3%; 
+  mix-blend-mode: difference; 
+}
+
+.social-links a {
+  font-size: 3.05vw; 
+  color: #fff;
+}
+
+.social-links a(:nth-of-type(1)) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==== sec blocks here ==== */
+.sec-1 {
+  background-color: #3363A7; 
+  border: 1px solid #000; 
+}
+
+.sec-2 {
+  background-color: #FFB5AF;   
+}
+
+.sec-3 {
+  background-color: #B7EEE2;  
+}
+
+.sec-4 {
+  background-color: #000;  
+}
+
+.sec-5 {
+  background-color: #FFDCD9; 
+}
+
+.sec {
+  position: relative;
+  text-align: center;
+  overflow: hidden; 
+}
+
+.sec .container {
+  position: relative;
+  z-index: 2; 
+}
+
+
+
+
+
+
+
+/* ==== sec one styling here ==== */
+
+.sec-heading__one {
+  position: relative;
+  display: inline-block;
+  top: -150px;
+}
+
+
+.sec-heading {
+  position: relative;
+  display: inline-block;
+  top: -300px;
+}
+
+
+
+.sec-1-text {
+  position: relative; 
+  padding: 2% 0%; 
+  top: -100px; 
+
+}
+
+.sec-1-text p {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 1.2; 
+  justify-content: space-between; 
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ==== scrolling neatness here ==== */
+.scroll-to {
+  position: absolute;
+  left: 50%;
+  bottom: 3vh;
+	width: 64px;
+  height: 32px;
+  background-image: url(img/down-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+    /* this centers the arrow */
+  transform: translateX(-50%);
+}
+
+.scroll-to-intro {
+  background-image: url(img/down-arrow-light.svg);
+}
+
+
+
+
+
+/* ==== media queries goe here ==== */
+@media (max-width: 800px)
