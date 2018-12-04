@@ -60,26 +60,6 @@ scrollLinks.forEach(link => {
 // });
 
 
-var functionBasedPropVal = anime({
-  targets: '#logo',
-  translateX: function(el) {
-    return el.getAttribute('data-x');
-  },
-  translateY: function(el, i) {
-    return 50 + (-50 * i);
-  },
-  scale: function(el, i, l) {
-    return (l - i) + .25;
-  },
-  rotate: function() { return anime.random(-360, 360); },
-  duration: function() { return anime.random(1200, 1800); },
-  duration: function() { return anime.random(800, 1600); },
-  delay: function() { return anime.random(0, 1000); },
-  direction: 'alternate',
-  loop: true
-});
-
-
 
 
 var colors = anime({
@@ -95,6 +75,31 @@ var colors = anime({
   duration: 2000,
   loop: true 
 });
+
+
+
+
+// var relativeValues = anime({
+//   targets: '#wave',
+//   translateX: {
+//     value: '+=150',
+//     duration: 1000,
+//     loop: true
+//   },
+//   width: {
+//     value: '-=10',
+//     duration: 1800,
+//     easing: 'easeInOutSine',
+//     loop: true 
+//   },
+//   height: {
+//     value: '*=4',
+//     duration: 1800,
+//     easing: 'easeInOutSine',
+//     loop: true
+//   },
+//   direction: 'alternate'
+// });
 
 
 

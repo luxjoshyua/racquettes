@@ -24,7 +24,7 @@ body {
   font-size: 16px;
   line-height: 1.2px;
   color: #B7EEE2; 
-  /* overflow: hidden; */
+  pointer-events: auto; 
 }
 
 body::-webkit-scrollbar {
@@ -162,48 +162,52 @@ ul, li {
   width: 100%;
 }
 
+.button {
+  position: relative;
+  top: 100px;
+  display: inline-block;
+  background-color: var(--blue);
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: none;
+  padding: 24px 72px;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
 
 /* ==== social links here ==== */
-.social-copy-container {
+
+.menu, .menu-item {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  /* why flex here? */
-  display: flex; 
-  /* width: calc(1000vw - 6%);  */
-  padding: 2% 3%; 
-  margin-bottom: 40px; 
+  font-size: 3.25vw; 
+  pointer-events: auto;
+  color: #fff;
+  padding-bottom: 2px;
   mix-blend-mode: difference; 
 }
 
-.social-links {
-  font-size: 3.05vw; 
-  color: #fff;
+
+.menu, .email-link {
+  bottom: 40px;
+  left: 30px; 
 }
 
-.social-links a(:nth-of-type(1)) {
-
+.menu, .instagram-link {
+  top: 40px; 
+  right: 30px; 
 }
 
-.one {
-  position: relative;
-  left: -20px;
+.menu, .facebook-link {
+  bottom: 40px; 
+  right: 30px; 
 }
 
 
 
-.two {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-}
 
-.three {
-  position: fixed;
-  bottom: 0;
-  right: 20px;
-  margin-bottom: 40px;
-}
+
 
 
 
@@ -233,6 +237,11 @@ ul, li {
 
 .sec-5 {
   background-color: #FFDCD9; 
+}
+
+.sec-6 {
+  background-color: rgb(15, 127, 34);
+
 }
 
 .sec {

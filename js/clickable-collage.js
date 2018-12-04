@@ -6,6 +6,8 @@ const images = [
   'img/apricot.png',
   'img/orange.png',
   'img/mango.png',
+  // 'img/kiwi.jpg',
+  // 'img/watermelon.jpg',
 ]
 
 let i = 0
