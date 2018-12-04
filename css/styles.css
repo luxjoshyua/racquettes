@@ -33,10 +33,17 @@ body::-webkit-scrollbar {
 a {
   text-decoration: none;
   color: #414141;
+  pointer-events: auto; 
 }
 
 a:hover {
   color: #000; 
+  font-style: italic; 
+}
+
+a:hover, a:focus, a:visited, a:link, a:active {
+  color: #fff;
+  text-decoration: none; 
 }
 
 .visible {
@@ -156,6 +163,7 @@ ul, li {
 }
 
 
+/* ==== social links here ==== */
 .social-copy-container {
   position: fixed;
   bottom: 0;
@@ -163,12 +171,12 @@ ul, li {
   /* why flex here? */
   display: flex; 
   /* width: calc(1000vw - 6%);  */
-  width: 100vw; 
   padding: 2% 3%; 
+  margin-bottom: 40px; 
   mix-blend-mode: difference; 
 }
 
-.social-links a {
+.social-links {
   font-size: 3.05vw; 
   color: #fff;
 }
@@ -177,7 +185,25 @@ ul, li {
 
 }
 
+.one {
+  position: relative;
+  left: -20px;
+}
 
+
+
+.two {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+.three {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  margin-bottom: 40px;
+}
 
 
 
@@ -228,10 +254,11 @@ ul, li {
 
 /* ==== sec one styling here ==== */
 
-.sec-heading__one {
+.sec-heading__one,
+.sec-heading__four {
   position: relative;
   display: inline-block;
-  top: -150px;
+  top: -200px;
 }
 
 
@@ -243,26 +270,21 @@ ul, li {
 
 
 
-.sec-1-text {
+.sec-1-text,
+.sec-4-text {
   position: relative; 
   padding: 2% 0%; 
   top: -100px; 
 
 }
 
-.sec-1-text p {
+.sec-1-text p,
+.sec-4-text p {
   display: inline-block;
   font-size: 30px;
   line-height: 1.2; 
   justify-content: space-between; 
-
-
 }
-
-
-
-
-
 
 
 
@@ -287,6 +309,8 @@ ul, li {
 }
 
 
+
+/* ==== sec four here ==== */
 
 
 
