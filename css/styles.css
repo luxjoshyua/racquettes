@@ -124,9 +124,96 @@ ul, li {
 
 .logo-top {
   max-width: 200px;
-
-
 }
+
+
+
+/* ==== moving text styling here ==== */
+
+@keyframes introTop {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes introBottom {
+  0% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#introTop {
+  height: 10vh;
+  text-align: right;
+  transform: translateX(-100%);
+  -webkit-animation: introTop 40s linear infinite;
+  animation: introTop 40s linear infinite;
+}
+
+/* animations  */
+#introTop h1 {
+  height: 10vh;
+  margin-top: 6vh;
+}
+
+#introMiddle {
+  height: 10vh;
+  transform: translateX(100vw);
+  -webkit-animation: introBottom 40s linear infinite;
+  animation: introBottom 40s linear infinite;
+}
+
+#introBottom {
+  height: 10vh;
+  text-align: right;
+  transform: translateX(-100%);
+  -webkit-animation: introTop 40s linear infinite;
+  animation: introTop 40s linear infinite;
+}
+
+/* outline text  */
+.hero-outline-text h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20vh;
+  -webkit-text-stroke: 1.7px #fff;
+  color: transparent; 
+  fill: none;
+  line-height: 0.8;
+  margin-top: 20vh;
+}
+
+.hero-outline-text-green h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20vh;
+  -webkit-text-stroke: 1.7px #3bb714;
+  color: transparent; 
+  fill: none;
+  line-height: 0.8;
+  margin-top: 20vh;
+}
+
+
+.hero-outline-text-blue h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20vh;
+  -webkit-text-stroke: 1.7px #0000ff;
+  color: transparent; 
+  fill: none;
+  line-height: 0.8;
+  margin-top: 20vh;
+}
+
+
+
+
 
 
 /* ==== hero section styling here ==== */
