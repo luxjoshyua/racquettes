@@ -6,8 +6,8 @@ const images = [
   'img/apricot.png',
   'img/orange.png',
   'img/mango.png',
-  // 'img/kiwi.jpg',
-  // 'img/watermelon.jpg',
+  'img/kiwi-etched.png',
+  'img/watermelon-etched.png',
 ]
 
 let i = 0
@@ -17,7 +17,7 @@ function placeImage(x, y) {
   
   const img = document.createElement("img")
   img.setAttribute("src", nextSrc)
-  img.setAttribute("draggable", "false")
+  img.setAttribute("draggable", "true")
   
   img.style.left = x + "px"
   img.style.top = y + "px"

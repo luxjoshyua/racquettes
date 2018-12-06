@@ -90,11 +90,6 @@ ul, li {
   left: 0; }
 
 
-
-
-
-
-
 /* ==== container styling used on every section goes here ==== */
 .section {
   min-height: 100vh;
@@ -112,7 +107,6 @@ ul, li {
   margin: auto; 
 }
 
-
 .logo {
   display: block;
   text-align: center;
@@ -126,10 +120,17 @@ ul, li {
   max-width: 200px;
 }
 
+/* ==== racquettes logo styling ==== */
+.logo-wrapper {
+  position: relative; 
+  transform: translateX(100%) rotateZ(270deg);
+  transform-origin: bottom left;
+  left: -98%;
+  bottom: -700px;
+}
 
 
 /* ==== moving text styling here ==== */
-
 @keyframes introTop {
   0% {
     transform: translateX(-100%);
@@ -154,11 +155,11 @@ ul, li {
   height: 10vh;
   text-align: right;
   transform: translateX(-100%);
-  -webkit-animation: introTop 40s linear infinite;
-  animation: introTop 40s linear infinite;
+  -webkit-animation: introTop 30s linear infinite;
+  animation: introTop 30s linear infinite;
 }
 
-/* animations  */
+/* ==== animations ==== */
 #introTop h1 {
   height: 10vh;
   margin-top: 6vh;
@@ -167,23 +168,23 @@ ul, li {
 #introMiddle {
   height: 10vh;
   transform: translateX(100vw);
-  -webkit-animation: introBottom 40s linear infinite;
-  animation: introBottom 40s linear infinite;
+  -webkit-animation: introBottom 30s linear infinite;
+  animation: introBottom 30s linear infinite;
 }
 
 #introBottom {
   height: 10vh;
   text-align: right;
   transform: translateX(-100%);
-  -webkit-animation: introTop 40s linear infinite;
-  animation: introTop 40s linear infinite;
+  -webkit-animation: introTop 30s linear infinite;
+  animation: introTop 30s linear infinite;
 }
 
-/* outline text  */
+/* ==== outline text ==== */
 .hero-outline-text h1 {
   font-family: 'Karla', sans-serif;
   font-size: 20vh;
-  -webkit-text-stroke: 1.7px #fff;
+  -webkit-text-stroke: 2.5px #fff;
   color: transparent; 
   fill: none;
   line-height: 0.8;
@@ -193,18 +194,17 @@ ul, li {
 .hero-outline-text-green h1 {
   font-family: 'Karla', sans-serif;
   font-size: 20vh;
-  -webkit-text-stroke: 1.7px #3bb714;
+  -webkit-text-stroke: 2.5px #3bb714;;
   color: transparent; 
   fill: none;
   line-height: 0.8;
   margin-top: 20vh;
 }
 
-
 .hero-outline-text-blue h1 {
   font-family: 'Karla', sans-serif;
   font-size: 20vh;
-  -webkit-text-stroke: 1.7px #0000ff;
+  -webkit-text-stroke: 2.5px #0000ff;
   color: transparent; 
   fill: none;
   line-height: 0.8;
@@ -220,15 +220,12 @@ ul, li {
 
 .logo-wrapper {
   position: relative;
-  
 }
-
 
 .hero-heading {
   position: relative;
   display: inline-block; 
   top: -100px; 
-  
 }
 
 .heading {
@@ -251,21 +248,20 @@ ul, li {
 
 .button {
   position: relative;
-  top: 100px;
+  top: -200px;
   display: inline-block;
   background-color: var(--blue);
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border: none;
-  padding: 24px 72px;
+  padding: 24px 30px;
   font-family: 'Karla', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 
 /* ==== social links here ==== */
-
 .menu, .menu-item {
   position: fixed;
   font-size: 3.25vw; 
@@ -274,7 +270,6 @@ ul, li {
   padding-bottom: 2px;
   mix-blend-mode: difference; 
 }
-
 
 .menu, .email-link {
   bottom: 40px;
@@ -290,17 +285,6 @@ ul, li {
   bottom: 40px; 
   right: 30px; 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -328,7 +312,6 @@ ul, li {
 
 .sec-6 {
   background-color: rgb(15, 127, 34);
-
 }
 
 .sec {
@@ -349,7 +332,6 @@ ul, li {
 
 
 /* ==== sec one styling here ==== */
-
 .sec-heading__one,
 .sec-heading__four {
   position: relative;
@@ -357,21 +339,17 @@ ul, li {
   top: -200px;
 }
 
-
 .sec-heading {
   position: relative;
   display: inline-block;
   top: -300px;
 }
 
-
-
 .sec-1-text,
 .sec-4-text {
   position: relative; 
   padding: 2% 0%; 
   top: -100px; 
-
 }
 
 .sec-1-text p,
@@ -381,6 +359,18 @@ ul, li {
   line-height: 1.2; 
   justify-content: space-between; 
 }
+
+
+/* ==== sec one image styling here ==== */
+
+#table-tennis {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -100px;
+}
+
+
 
 
 

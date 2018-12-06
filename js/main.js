@@ -60,7 +60,7 @@ scrollLinks.forEach(link => {
 // });
 
 
-
+// wave hero animation here
 
 var colors = anime({
   targets: '#wave',
@@ -76,6 +76,14 @@ var colors = anime({
   loop: true 
 });
 
+
+
+var CSStransforms = anime({
+  targets: '#table-tennis',
+  translateX: 250,
+  scale: 2,
+  rotate: '1turn'
+});
 
 
 
