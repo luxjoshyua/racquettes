@@ -33,33 +33,6 @@ scrollLinks.forEach(link => {
 })
 
 
-
-
-// var infiniteLoopAlternate = anime({
-//   targets: '#wave',
-//   translateX: 250,
-//   direction: 'alternate',
-//   loop: true
-// });
-
-
-
-
-// var colors = anime({
-//   targets: '#wave',
-//   translateX: 250,
-//   backgroundColor: [
-//     {value: '#FFF'}, // Or #FFFFFF
-//     {value: 'rgb(255, 0, 0)'},
-//     {value: 'hsl(100, 60%, 60%)'}
-//   ],
-//   easing: 'linear',
-//   direction: 'alternate',
-//   duration: 2000,
-//   loop: true 
-// });
-
-
 // wave hero animation here
 
 var colors = anime({
@@ -78,36 +51,35 @@ var colors = anime({
 
 
 
+// table-tennis animation here
+
 var CSStransforms = anime({
-  targets: '#table-tennis',
+  targets: '#table-tennis .el',
   translateX: 250,
   scale: 2,
-  rotate: '1turn'
+  rotate: '1turn',
+  loop: true,
+  duration: 3000, 
 });
 
 
 
-// var relativeValues = anime({
-//   targets: '#wave',
-//   translateX: {
-//     value: '+=150',
-//     duration: 1000,
-//     loop: true
-//   },
-//   width: {
-//     value: '-=10',
-//     duration: 1800,
-//     easing: 'easeInOutSine',
-//     loop: true 
-//   },
-//   height: {
-//     value: '*=4',
-//     duration: 1800,
-//     easing: 'easeInOutSine',
-//     loop: true
-//   },
-//   direction: 'alternate'
-// });
+
+// table-tennis animation here
+
+var CSStransforms = anime({
+  targets: '#badminton .el-bd',
+  translateX: 250,
+  // translateY: 400, 
+  scale: 2,
+  rotate: '2turn',
+  loop: true,
+  duration: 3000, 
+});
+
+
+
+
 
 
 

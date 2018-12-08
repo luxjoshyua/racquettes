@@ -345,6 +345,12 @@ ul, li {
   top: -300px;
 }
 
+.sec-heading__two {
+  position: relative;
+  display: inline-block;
+  top: -150px;
+}
+ 
 .sec-1-text,
 .sec-4-text {
   position: relative; 
@@ -363,15 +369,56 @@ ul, li {
 
 /* ==== sec one image styling here ==== */
 
-#table-tennis {
-  position: absolute;
+.racquette__one h3,
+.racquette__two h3 {
+  font-size: 4vw;
+  line-height: 1.2;
+  font-weight: 400;
+  border: 1px solid #fff;
   width: 300px;
-  height: 300px;
-  top: -100px;
+  height: auto;
+  margin: 0 0; 
+}
+
+.racquette__one h3 {
+  position: relative;
+  right: -120px;
+  top: -200px;
+}
+
+
+.racquette__one {
+  position: relative;
+  top: 100px !important;
+  left: -50px;
+}
+
+#table-tennis {
+  position: relative;
+  max-width: 100px;
+  max-height: 200px;
+  top: -250px;
+  left: -250px;
 }
 
 
 
+.racquette__two {
+  position: relative;
+  top: -45px !important;
+  left: -80px;
+  width: 300px;
+  height: 100px;
+}
+
+#badminton {
+  position: relative;
+  max-width: 200px;
+  max-height: 300px;
+  /* top: -150px;
+  left: -250px; */
+
+}
 
 
 
