@@ -74,14 +74,35 @@ var CSStransforms = anime({
   scale: 2,
   rotate: '2turn',
   loop: true,
-  duration: 3000, 
+  duration: 5500, 
 });
 
 
+// squash animation here
+
+var CSStransforms = anime({
+  targets: '#squash .el-sq',
+  translateX: 250,
+  // translateY: 400, 
+  scale: 2,
+  rotate: '2turn',
+  loop: true,
+  duration: 7600, 
+});
 
 
+// tennis animation here
 
-
+var CSStransforms = anime({
+  targets: '#tennis .el-tn',
+  translateX: 250,
+  // translateY: 400, 
+  scale: 2,
+  rotate: '2turn',
+  loop: true,
+  duration: 4000, 
+  // easing: 'linear'
+});
 
 
 // progress bars go here

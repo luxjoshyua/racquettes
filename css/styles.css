@@ -59,7 +59,7 @@ ul, li {
 .bar-3 {
   position: fixed;
   height: 8px;
-  background-color: #B7EEE2;
+  background-color: #3363A7;
   z-index: 900;
   width: 0%;
   box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); }
@@ -68,7 +68,7 @@ ul, li {
 .bar-4 {
   position: fixed;
   width: 8px; 
-  background-color: #FFB5AF; 
+  background-color: #000; 
   z-index: 900;
   height: 0%;
   box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); }
@@ -103,7 +103,7 @@ ul, li {
 }
 
 .container {
-  max-width: 810px;
+  max-width: 900px;
   margin: auto; 
 }
 
@@ -260,6 +260,12 @@ ul, li {
   font-size: 40px;
 }
 
+.button:hover {
+  opacity: .7 !important; 
+  pointer-events: auto;
+  background-color: #000; 
+}
+
 
 /* ==== social links here ==== */
 .menu, .menu-item {
@@ -326,11 +332,6 @@ ul, li {
 }
 
 
-
-
-
-
-
 /* ==== sec one styling here ==== */
 .sec-heading__one,
 .sec-heading__four {
@@ -348,14 +349,14 @@ ul, li {
 .sec-heading__two {
   position: relative;
   display: inline-block;
-  top: -150px;
+  top: -100px;
 }
  
 .sec-1-text,
 .sec-4-text {
   position: relative; 
   padding: 2% 0%; 
-  top: -100px; 
+  top: -150px; 
 }
 
 .sec-1-text p,
@@ -370,11 +371,13 @@ ul, li {
 /* ==== sec one image styling here ==== */
 
 .racquette__one h3,
-.racquette__two h3 {
-  font-size: 4vw;
+.racquette__two h3,
+.racquette__three h3,
+.racquette__four h3 {
+  font-size: 3vw;
   line-height: 1.2;
   font-weight: 400;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   width: 300px;
   height: auto;
   margin: 0 0; 
@@ -386,10 +389,9 @@ ul, li {
   top: -200px;
 }
 
-
 .racquette__one {
   position: relative;
-  top: 100px !important;
+  top: 120px !important;
   left: -50px;
 }
 
@@ -400,8 +402,6 @@ ul, li {
   top: -250px;
   left: -250px;
 }
-
-
 
 .racquette__two {
   position: relative;
@@ -417,8 +417,27 @@ ul, li {
   max-height: 300px;
   /* top: -150px;
   left: -250px; */
-
 }
+
+.racquette__three {
+  position: relative;
+  top: -390px !important;
+  right: -50%;
+  height: 100px;
+  width: 300px;
+}
+
+.racquette__four {
+  position: relative;
+  top: -200px !important;
+  right: -50%;
+  height: 100px;
+  width: 300px;
+}
+
+
+
+
 
 
 
