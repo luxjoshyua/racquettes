@@ -490,6 +490,19 @@ table {
 
 
 
+
+/* ==== SEC SIX styling here ==== */
+
+.sec-heading__six {
+  position: relative;
+  top: -140px;
+  display: inline-block; 
+}
+
+
+
+
+
 /* ==== scrolling neatness here ==== */
 .scroll-to {
   position: absolute; 

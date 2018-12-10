@@ -7,3 +7,52 @@
   display: flex;
   background-color: rgb(15, 127, 34);
 }
+
+.register .container {
+  display: flex; 
+}
+
+.eyes {
+  width: 108px; 
+  height: 32px; 
+  background-image: url(../img/eyes_open-cream.svg);
+}
+
+.eyes, .hand {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.form {
+  position: relative;
+  left: -5%;
+  margin: 48px 24px;
+  top: 80px; 
+}
+
+h2 {
+  font-size: 32px;
+  color: #FEFEF3; 
+}
+
+.input {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #FEFEF3;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 24px;
+  outline: none;
+  box-sizing: border-box; 
+  color: #FEFEF3; 
+}
+
+.input::placeholder {
+  color: #FEFEF3; 
+}
+
+.input {
+
+}
+
