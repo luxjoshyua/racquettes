@@ -1,38 +1,3 @@
-// scroll links go here
-// 1. whenever we click a .js-scroll link, we want to run a function
-// 2. we want to stop the link from jumping straight to our section (its default behaviour)
-// 3. we want to find out the href attribute, and then grab that element
-// 4. then scroll to it using scrollIntoView
-
-const scrollLinks = document.querySelectorAll('.js-scroll')
-
-scrollLinks.forEach(link => {
-	
-	// addEventListener is just the same as jQuery’s .on()
-  // we can listen for events on elements and then run a function
-  link.addEventListener('click', (event) => {
-		// using the event keyword we get access to a snapshot of what
-		// happened when we clicked on our link
-
-		// this is equivalent to return false in jQuery
-		// it will block the default browser behaviour of the link jumping to
-		// the href attribute     
-    event.preventDefault()
-		
-		// here we grab the href attribute from our link
-    const href = link.getAttribute('href')
-    console.log(href)
-		// here we use the new  scrollIntoView feature to scroll to 
-		// our desired element in a smooth fashion    
-    document.querySelector(href).scrollIntoView({ 
-      behavior: 'smooth' 
-    })
-
-  })
-  
-})
-
-
 // wave hero animation here
 
 var colors = anime({
@@ -50,7 +15,6 @@ var colors = anime({
 });
 
 
-
 // table-tennis animation here
 
 var CSStransforms = anime({
@@ -61,8 +25,6 @@ var CSStransforms = anime({
   loop: true,
   duration: 3000, 
 });
-
-
 
 
 // table-tennis animation here
@@ -141,3 +103,37 @@ $(document).on("scroll", function () {
 
 
 
+
+
+// 1. whenever we click a .js-scroll link, we want to run a function
+// 2. we want to stop the link from jumping straight to our section (its default behaviour)
+// 3. we want to find out the href attribute, and then grab that element
+// 4. then scroll to it using scrollIntoView
+
+const scrollLinks = document.querySelectorAll('.js-scroll')
+
+scrollLinks.forEach(link => {
+	
+	// addEventListener is just the same as jQuery’s .on()
+  // we can listen for events on elements and then run a function
+  link.addEventListener('click', (event) => {
+		// using the event keyword we get access to a snapshot of what
+		// happened when we clicked on our link
+
+		// this is equivalent to return false in jQuery
+		// it will block the default browser behaviour of the link jumping to
+		// the href attribute     
+    event.preventDefault()
+		
+		// here we grab the href attribute from our link
+    const href = link.getAttribute('href')
+    console.log(href)
+		// here we use the new  scrollIntoView feature to scroll to 
+		// our desired element in a smooth fashion    
+    document.querySelector(href).scrollIntoView({ 
+      behavior: 'smooth' 
+    })
+
+  })
+  
+})

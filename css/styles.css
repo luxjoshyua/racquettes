@@ -333,17 +333,20 @@ ul, li {
 
 
 /* ==== sec one styling here ==== */
-.sec-heading__one,
-.sec-heading__four {
+.sec-heading__one {
   position: relative;
   display: inline-block;
   top: -200px;
 }
 
+.sec-heading__four {
+  position: relative;
+  top: -240px;
+}
+
 .sec-heading {
   position: relative;
-  display: inline-block;
-  top: -300px;
+  top: -350px;
 }
 
 .sec-heading__two {
@@ -351,19 +354,32 @@ ul, li {
   display: inline-block;
   top: -100px;
 }
+
+.sec-heading__three {
+  position: relative;
+  top: -115px; 
+}
  
-.sec-1-text,
+.sec-1-text, 
 .sec-4-text {
   position: relative; 
   padding: 2% 0%; 
   top: -150px; 
 }
 
+.sec-3-text {
+  position: relative; 
+  padding: 2% 0%; 
+  top: -115px; 
+}
+
 .sec-1-text p,
+.sec-3-text p,
 .sec-4-text p {
   display: inline-block;
-  font-size: 30px;
+  font-size: 32px;
   line-height: 1.2; 
+  color: #fff; 
   justify-content: space-between; 
 }
 
@@ -391,7 +407,7 @@ ul, li {
 
 .racquette__one {
   position: relative;
-  top: 120px !important;
+  top: 165px !important;
   left: -50px;
 }
 
@@ -405,7 +421,7 @@ ul, li {
 
 .racquette__two {
   position: relative;
-  top: -45px !important;
+  top: 5px !important;
   left: -80px;
   width: 300px;
   height: 100px;
@@ -421,7 +437,7 @@ ul, li {
 
 .racquette__three {
   position: relative;
-  top: -390px !important;
+  top: -330px !important;
   right: -50%;
   height: 100px;
   width: 300px;
@@ -429,10 +445,36 @@ ul, li {
 
 .racquette__four {
   position: relative;
-  top: -200px !important;
+  top: -155px !important;
   right: -50%;
   height: 100px;
   width: 300px;
+}
+
+
+/* ==== SEC THREE styling here ==== */
+.sec-3-timetable {
+  position: relative;
+  top: -80px;
+}
+
+
+.sec-3-timetable td {
+  font-size: 18px; 
+  color: #fff;
+  font-weight: 400; 
+  /* border: 2px solid #fff;  */
+  padding-bottom: 10px; 
+  text-align: center; 
+
+}
+
+table {
+  border-spacing: 0px;
+  box-sizing: border-box; 
+  table-layout: fixed; 
+  border: 2px solid #fff; 
+
 }
 
 
@@ -443,22 +485,23 @@ ul, li {
 
 /* ==== scrolling neatness here ==== */
 .scroll-to {
-  position: absolute;
+  position: absolute; 
   left: 50%;
   bottom: 3vh;
 	width: 64px;
   height: 32px;
-  background-image: url(img/down-arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-    /* this centers the arrow */
+  /* this centers the arrow */
   transform: translateX(-50%);
+  background-image: url(../img/down-arrow.svg)
 }
 
 .scroll-to-intro {
-  background-image: url(img/down-arrow-light.svg);
+  background-image: url(../img/down-arrow-light.svg); 
 }
+
 
 
 
