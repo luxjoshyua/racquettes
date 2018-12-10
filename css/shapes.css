@@ -2,9 +2,7 @@
 
 .shape {
   position: absolute; 
-
 }
-
 
 
 .circle {
@@ -13,6 +11,14 @@
   background-color: #B7EEE2; 
   border-radius: 100%;
   border-color: #B7EEE2; 
+}
+
+.circle-two {
+  height: 93px;
+  width: 93px;
+  background-color: #FFB5AF; 
+  border-radius: 100%;
+  border-color: #FFB5AF; 
 }
 
 
@@ -27,7 +33,6 @@
 }
 
 
-
 .triangle {
   width: 0;
   height: 0;
@@ -37,6 +42,44 @@
 }
 
 
+/* heart here */
+.heart {
+  width: 100px;
+  height: 90px;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #FFB5AF;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+
+
+/* triangle-bottom-right */
+.triangle-bottom-right {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #86D7C8;
+  border-left: 100px solid transparent;
+}
+
+
+/* circle nth-of-type here */
 
 .circle:nth-of-type(1) {
   left: 5%;
@@ -78,6 +121,9 @@
   top: 80%;
 }
 
+
+/* square nth-of-type here */
+
 .square:nth-of-type(1) {
   left: 5%;
   top: 2%;
@@ -118,6 +164,7 @@
   bottom: 5%;
 }
 
+/* triangle nth-of-type here */
 
 .triangle:nth-of-type(1) {
   left: 5%;
@@ -155,6 +202,96 @@
 }
 
 .triangle:nth-of-type(8) {
+  right: 0%;
+  bottom: 5%;
+}
+
+
+/* heart nth-of-type here */
+
+.heart:nth-of-type(1) {
+  left: 5%;
+  top: 2%;
+}
+
+.heart:nth-of-type(2) {
+  left: 8%;
+  top: 25%;
+}
+
+.heart:nth-of-type(3) {
+  left: 3%;
+  top: 60%;
+}
+
+.heart:nth-of-type(4) {
+  left: 10%;
+  top: 90%;
+}
+
+.heart:nth-of-type(5) {
+  right: 10%;
+  top: 7%;
+}
+
+.heart:nth-of-type(6) {
+  right: 2%;
+  top: 35%;
+}
+
+.heart:nth-of-type(7) {
+  right: 9%;
+  top: 60%;
+}
+
+.heart:nth-of-type(8) {
+  right: 0%;
+  bottom: 5%;
+}
+
+/* diamond nth-of-type here */
+
+.triangle-bottom-right:nth-of-type(1) {
+  left: 5%;
+  top: 2%;
+}
+
+.triangle-bottom-right:nth-of-type(2) {
+  left: 8%;
+  top: 25%;
+}
+
+.triangle-bottom-right:nth-of-type(3) {
+  left: 3%;
+  top: 60%;
+}
+
+.triangle-bottom-right:nth-of-type(4) {
+  left: 10%;
+  top: 90%;
+}
+
+.triangle-bottom-right:nth-of-type(5) {
+  right: 10%;
+  top: 7%;
+}
+
+.triangle-bottom-right:nth-of-type(6) {
+  right: 2%;
+  top: 35%;
+}
+
+.triangle-bottom-right:nth-of-type(7) {
+  right: 9%;
+  top: 60%;
+}
+
+.triangle-bottom-right:nth-of-type(8) {
+  right: 0%;
+  bottom: 5%;
+}
+
+.triangle-bottom-right:nth-of-type(9) {
   right: 0%;
   bottom: 5%;
 }

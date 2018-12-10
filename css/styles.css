@@ -129,7 +129,6 @@ ul, li {
   bottom: -700px;
 }
 
-
 /* ==== moving text styling here ==== */
 @keyframes introTop {
   0% {
@@ -210,8 +209,6 @@ ul, li {
   line-height: 0.8;
   margin-top: 20vh;
 }
-
-
 
 
 
@@ -339,7 +336,8 @@ ul, li {
   top: -200px;
 }
 
-.sec-heading__four {
+.sec-heading__four,
+.sec-heading__five {
   position: relative;
   top: -240px;
 }
@@ -364,7 +362,7 @@ ul, li {
 .sec-4-text {
   position: relative; 
   padding: 2% 0%; 
-  top: -150px; 
+  top: -180px; 
 }
 
 .sec-3-text {
@@ -373,9 +371,17 @@ ul, li {
   top: -115px; 
 }
 
+
+.sec-5-text {
+  position: relative; 
+  padding: 2% 0%; 
+  top: -195px; 
+}
+
 .sec-1-text p,
 .sec-3-text p,
-.sec-4-text p {
+.sec-4-text p,
+.sec-5-text p {
   display: inline-block;
   font-size: 32px;
   line-height: 1.2; 
@@ -479,6 +485,7 @@ table {
 
 
 
+/* ==== SEC FOUR styling here ==== */
 
 
 
@@ -505,7 +512,7 @@ table {
 
 
 
-/* ==== sec four here ==== */
+
 
 
 

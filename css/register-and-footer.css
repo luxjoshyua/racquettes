@@ -1,0 +1,9 @@
+.flex-column {
+  flex-direction: column; 
+}
+
+.register {
+  min-height: 65vh;
+  display: flex;
+  background-color: rgb(15, 127, 34);
+}
