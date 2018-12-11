@@ -20,8 +20,6 @@ circles.forEach((circle, index) => {
 })
 
 
-
-
 // squares here
 const square = document.querySelectorAll('.square')
 

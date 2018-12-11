@@ -102,9 +102,6 @@ $(document).on("scroll", function () {
 })
 
 
-
-
-
 // 1. whenever we click a .js-scroll link, we want to run a function
 // 2. we want to stop the link from jumping straight to our section (its default behaviour)
 // 3. we want to find out the href attribute, and then grab that element
@@ -137,3 +134,39 @@ scrollLinks.forEach(link => {
   })
   
 })
+
+
+// table-tennis animation here
+
+// var CSStransforms = anime({
+//   targets: '#eyes .el-eyes',
+//   translateX: 250,
+//   // translateY: 400, 
+//   scale: 2,
+//   rotate: '2turn',
+//   loop: true,
+//   duration: 7500, 
+// });
+
+
+// eyes animation here
+
+var unitlessValue = anime({
+  targets: '#eyes .el-eyes',
+  translateX: 250,
+  rotate: 540,
+  loop: true,
+  duration: 7500
+});
+
+
+// hand animation here
+
+var unitlessValue = anime({
+  targets: '#hand .el-hand',
+  translateX: 250,
+  // rotate: 540,
+  rotate: 360, 
+  loop: true,
+  duration: 7500
+});

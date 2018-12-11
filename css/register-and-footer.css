@@ -11,30 +11,54 @@
 .register .container {
   display: flex; 
 }
-
+/* 
 .eyes {
   width: 108px; 
   height: 32px; 
   background-image: url(../img/eyes_open-cream.svg);
+} */
+
+#eyes {
+  position: relative; 
+  left: -130%;
 }
 
-.eyes, .hand {
+#hand {
+  position: relative;
+  top: 80px;
+  left: -40%;
+  align-self: flex-end; 
+}
+
+
+/* .eyes, .hand {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; 
 }
 
+.hand {
+  position: relative;
+  top: 110px;
+  right: 90px; 
+  width: 57px;
+  height: 89px;
+  background-image: url(../img/ok_hand-cream.svg); 
+  align-self: flex-end; 
+} */
+
+
 .form {
   position: relative;
   left: -5%;
   margin: 48px 24px;
-  top: 80px; 
+  top: 20px; 
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 25px;
   color: #FEFEF3; 
-}
+} 
 
 .input {
   background: none;
@@ -50,9 +74,5 @@ h2 {
 
 .input::placeholder {
   color: #FEFEF3; 
-}
-
-.input {
-
 }
 
