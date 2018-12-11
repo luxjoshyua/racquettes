@@ -170,3 +170,18 @@ var unitlessValue = anime({
   loop: true,
   duration: 7500
 });
+
+
+
+
+// moon white white-dot effect
+
+$(document).mousemove(function(e) { 
+  var pixelsFromTop = $(document).scrollTop() 
+      /* var y = e.pageY */
+      var y = e.pageY - pixelsFromTop
+      var x = e.pageX
+
+      $('.white-dot').css({'top': y}) 
+      $('.white-dot').css({'left': x})
+  })
