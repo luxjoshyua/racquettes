@@ -11,6 +11,8 @@
 .register .container {
   display: flex; 
 }
+
+
 /* 
 .eyes {
   width: 108px; 
@@ -75,4 +77,64 @@ h2 {
 .input::placeholder {
   color: #FEFEF3; 
 }
+
+
+.footer {
+  min-height: 35vh;
+  display: flex;
+  background-color: #111118;
+  text-align: center;   
+}
+
+.button {
+  border: solid 2px #FFEED1;
+  color: #FFEED1; 
+  line-height: 1;
+  padding: 6px 12px;
+  min-width: 120px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.menu__bottom, .menu-item__bottom {
+  position: absolute;
+  font-size: 3.25vw; 
+  pointer-events: auto;
+  color: #fff;
+  padding-bottom: 2px;
+  mix-blend-mode: difference; 
+}
+
+.menu__bottom, .email-link {
+  bottom: 40px;
+  left: 30px; 
+}
+
+.menu__bottom, .instagram-link {
+  top: 40px; 
+  right: 30px; 
+}
+
+.menu__bottom, .facebook-link {
+  bottom: 40px; 
+  right: 30px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

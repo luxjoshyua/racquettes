@@ -290,7 +290,7 @@ ul, li {
 
 /* ==== social links here ==== */
 .menu, .menu-item {
-  position: fixed;
+  position: absolute;
   font-size: 3.25vw; 
   pointer-events: auto;
   color: #fff;
@@ -521,7 +521,7 @@ table {
   position: relative;
   top: -140px;
   display: inline-block; 
-  left: 33%; 
+  left: 40%; 
 }
 
 
@@ -549,6 +549,23 @@ table {
   background-image: url(../img/down-arrow-light.svg); 
 }
 
+
+
+
+.scroll-to-second {
+  position: absolute; 
+  left: 50%;
+  bottom: 3vh;
+	width: 64px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* this centers the arrow */
+  transform: translateX(-50%);
+  background-image: url(../img/down-arrow-light.svg); 
+
+}
 
 
 

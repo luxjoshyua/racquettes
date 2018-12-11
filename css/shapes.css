@@ -296,16 +296,14 @@
 }
 
 .triangle-bottom-right:nth-of-type(8) {
-  right: 0%;
-  bottom: 5%;
+  right: 5%;
+  bottom: 15%;
 }
 
 .triangle-bottom-right:nth-of-type(9) {
-  right: 2%;
+  right: 20%;
   bottom: 6%;
 }
-
-
 
 /* squiggle nth-of-type here */
 
@@ -351,5 +349,5 @@
 
 .squiggle:nth-of-type(9) {
   right: 21%;
-  bottom: 10%;
+  bottom: 20%;
 }
