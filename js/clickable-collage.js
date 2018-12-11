@@ -8,6 +8,7 @@ const images = [
   'img/mango.png',
   'img/kiwi-etched.png',
   'img/watermelon-etched.png',
+  'img/Raquettes-Logo.svg'
 ]
 
 let i = 0
