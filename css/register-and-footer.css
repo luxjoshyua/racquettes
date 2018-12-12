@@ -87,13 +87,31 @@ h2 {
 }
 
 .button {
-  border: solid 2px #FFEED1;
-  color: #FFEED1; 
+  position: relative;
+  display: inline-block;
+  background-color: var(--blue);
+  /* border: solid 2px #FFEED1; */
+  border: solid 2px #000;
+  top: -20px;
+  /* color: #FFEED1;  */
+  
+  color: #000 !important; 
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   line-height: 1;
+  font-size: 40px;
   padding: 6px 12px;
   min-width: 120px;
   text-align: center;
   text-decoration: none;
+}
+
+
+.button:hover {
+  pointer-events: auto;
+  background-color: #fff;
+  color: #000 !important;
+  transition-delay: 200ms; 
 }
 
 

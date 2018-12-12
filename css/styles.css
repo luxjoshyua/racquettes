@@ -139,9 +139,6 @@ ul, li {
 
 
 
-
-
-
 /* ==== racquettes logo styling ==== */
 .logo-wrapper {
   position: relative; 
@@ -189,8 +186,10 @@ ul, li {
 #introMiddle {
   height: 10vh;
   transform: translateX(100vw);
-  -webkit-animation: introBottom 30s linear infinite;
-  animation: introBottom 30s linear infinite;
+  /* -webkit-animation: introBottom 30s linear infinite; */
+  -webkit-animation: introBottom 20s linear infinite;
+  /* animation: introBottom 30s linear infinite; */
+  animation: introBottom 20s linear infinite;
 }
 
 #introBottom {
@@ -236,8 +235,6 @@ ul, li {
 }
 
 
-
-
 /* ==== hero section styling here ==== */
 
 .logo-wrapper {
@@ -268,7 +265,7 @@ ul, li {
   width: 100%;
 }
 
-.button {
+/* .button {
   position: relative;
   top: -200px;
   display: inline-block;
@@ -286,7 +283,7 @@ ul, li {
   opacity: .7 !important; 
   pointer-events: auto;
   background-color: #000; 
-}
+} */
 
 
 /* ==== social links here ==== */
@@ -313,7 +310,6 @@ ul, li {
   bottom: 40px; 
   right: 30px; 
 }
-
 
 
 /* ==== sec blocks here ==== */
@@ -380,8 +376,14 @@ ul, li {
 
 .sec-heading__three {
   position: relative;
-  top: -115px; 
+  top: -90px; 
 }
+
+.sec-heading__four {
+  max-width: 500px;
+  left: 20%; 
+}
+
  
 .sec-1-text, 
 .sec-4-text {
@@ -393,7 +395,7 @@ ul, li {
 .sec-3-text {
   position: relative; 
   padding: 2% 0%; 
-  top: -115px; 
+  top: -100px; 
 }
 
 
@@ -513,25 +515,17 @@ table {
 /* ==== SEC FOUR styling here ==== */
 
 
-
-
-
 /* ==== SEC SIX styling here ==== */
 
 .sec-heading__six {
   position: relative;
   top: -140px;
   display: inline-block; 
-  left: 40%; 
+  left: 38%; 
 }
 
 
-
-
-
-
-
-/* ==== scrolling neatness here ==== */
+/* ==== scrolling effect here ==== */
 .scroll-to {
   position: absolute; 
   left: 50%;
@@ -550,9 +544,6 @@ table {
   background-image: url(../img/down-arrow-light.svg); 
 }
 
-
-
-
 .scroll-to-second {
   position: absolute; 
   left: 50%;
@@ -565,11 +556,15 @@ table {
   /* this centers the arrow */
   transform: translateX(-50%);
   background-image: url(../img/down-arrow-light.svg); 
-
 }
 
-
-
+.scroll-to:hover,
+.scroll-to-intro:hover,
+.scroll-to-second:hover {
+  transition: 600ms ease-in-out;
+  margin-bottom: 20px;
+  opacity: .4; 
+}
 
 
 

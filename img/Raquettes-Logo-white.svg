@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100#" height="100%" viewBox="0 0 825 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="825px" height="141px" viewBox="0 0 825 141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
     <title>Raquettes Logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Racquettes-Home" transform="translate(-304.000000, -446.000000)" stroke="#000000" stroke-width="2">
+        <g id="Racquettes-Home" transform="translate(-304.000000, -446.000000)" stroke="#fff" stroke-width="3">
             <g id="Section-1" transform="translate(1.000000, 175.000000)">
                 <g id="Raquettes-Logo" transform="translate(305.000000, 273.000000)">
                     <path d="M42.8938537,7.85173625 L42.8938537,53.0374916 L46.1702744,53.0374916 C58.8300153,53.0374916 66.4258599,44.5927713 66.4258599,29.9258681 C66.4258599,15.8519491 58.9792807,7.85173625 46.0219362,7.85173625 L42.8938537,7.85173625 Z M42.8938537,87.4075125 C42.8938537,94.9632178 43.489988,96.2967403 53.1699847,97.3333097 L53.1699847,104 L0,104 L0,97.3333097 C9.6809238,96.2967403 10.2770581,94.9632178 10.2770581,87.4075125 L10.2770581,16.5924875 C10.2770581,9.03678218 9.6809238,7.70325967 0,6.66669031 L0,0 L57.9362775,0 C81.9151525,0 98.5957866,11.1108431 98.5957866,29.7773916 C98.5957866,44.2967403 88.1703903,52.4445075 77.2981251,56.2965984 L97.1068416,85.3334516 C103.063549,94.2226794 105.297893,96.8888022 112,97.3333097 L112,104 L75.2130458,104 C71.0428873,100.740893 67.1703324,95.4077253 62.7025703,87.7035434 L47.3616158,61.0367822 L42.8938537,61.0367822 L42.8938537,87.4075125 Z" id="Stroke-1"></path>
