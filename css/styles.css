@@ -64,7 +64,8 @@ ul, li {
   background-color: #3363A7;
   z-index: 900;
   width: 0%;
-  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); }
+  box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); 
+}
 
 .bar-2,
 .bar-4 {
@@ -99,14 +100,15 @@ ul, li {
   position: relative;
 }
 
+/* 
 .section-pad {
   padding-left: 5vw;
   padding-right: 5vw; 
-}
+} */
 
 .container {
   max-width: 900px;
-  margin: auto; 
+  margin: 0 auto; 
 }
 
 .logo {
@@ -123,7 +125,6 @@ ul, li {
 }
 
 
-
 /* ==== HERO landing here ==== */
 .white-dot {
   position: fixed;
@@ -138,7 +139,6 @@ ul, li {
 }
 
 
-
 /* ==== racquettes logo styling ==== */
 .logo-wrapper {
   position: relative; 
@@ -147,6 +147,7 @@ ul, li {
   left: -98%;
   bottom: -700px;
 }
+
 
 /* ==== moving text styling here ==== */
 @keyframes introTop {
@@ -265,26 +266,6 @@ ul, li {
   width: 100%;
 }
 
-/* .button {
-  position: relative;
-  top: -200px;
-  display: inline-block;
-  background-color: var(--blue);
-  color: #000;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: none;
-  padding: 24px 30px;
-  font-family: 'Karla', sans-serif;
-  font-size: 40px;
-}
-
-.button:hover {
-  opacity: .7 !important; 
-  pointer-events: auto;
-  background-color: #000; 
-} */
-
 
 /* ==== social links here ==== */
 .menu, .menu-item {
@@ -315,7 +296,6 @@ ul, li {
 /* ==== sec blocks here ==== */
 .sec-1 {
   background-color: #3363A7; 
-  border: 1px solid #000; 
 }
 
 .sec-2 {
@@ -350,66 +330,22 @@ ul, li {
 }
 
 
-/* ==== sec one styling here ==== */
-.sec-heading__one {
-  position: relative;
-  display: inline-block;
-  top: -160px;
-}
-
-.sec-heading__four,
-.sec-heading__five {
-  position: relative;
-  top: -240px;
-}
+/* ==== sec styling reused across sections here ==== */
 
 .sec-heading {
   position: relative;
-  top: -350px;
+  display: inline-block; 
+  margin-top: 40px; 
 }
 
-.sec-heading__two {
-  position: relative;
-  display: inline-block;
-  top: -100px;
+.sec-p-text {
+  margin-top: 60px;
 }
 
-.sec-heading__three {
-  position: relative;
-  top: -50px; 
-}
-
-.sec-heading__four {
-  max-width: 500px;
-  left: 20%; 
-  margin-top: 50px; 
-}
-
- 
-.sec-1-text, 
-.sec-4-text {
-  position: relative; 
-  padding: 2% 0%; 
-  top: -180px; 
-}
-
-.sec-3-text {
-  position: relative; 
-  padding: 2% 0%; 
-  top: -100px; 
-}
-
-
-.sec-5-text {
-  position: relative; 
-  padding: 2% 0%; 
-  top: -195px; 
-}
-
-.sec-1-text p,
-.sec-3-text p,
-.sec-4-text p,
-.sec-5-text p {
+.sec-p-text p,
+.sec-p-text p,
+.sec-p-text p,
+.sec-p-text p {
   display: inline-block;
   font-size: 32px;
   line-height: 1.2; 
@@ -441,7 +377,7 @@ ul, li {
 
 .racquette__one {
   position: relative;
-  top: 165px !important;
+  top: 200px !important;
   left: -50px;
 }
 
@@ -489,9 +425,8 @@ ul, li {
 /* ==== SEC THREE styling here ==== */
 .sec-3-timetable {
   position: relative;
-  top: -80px;
+  margin-top: 20px; 
 }
-
 
 .sec-3-timetable td {
   font-size: 18px; 
@@ -500,7 +435,6 @@ ul, li {
   /* border: 2px solid #fff;  */
   padding-bottom: 10px; 
   text-align: center; 
-
 }
 
 table {
@@ -508,12 +442,12 @@ table {
   box-sizing: border-box; 
   table-layout: fixed; 
   border: 2px solid #fff; 
-
 }
 
 
-
 /* ==== SEC FOUR styling here ==== */
+
+
 
 
 /* ==== SEC SIX styling here ==== */
@@ -570,5 +504,5 @@ table {
 
 
 
-/* ==== media queries goe here ==== */
+/* ==== media queries go here ==== */
 @media (max-width: 800px)

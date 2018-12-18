@@ -4,14 +4,14 @@
 
 .register {
   min-height: 65vh;
-  display: flex;
+  /* display: flex; */
   background-color: rgb(15, 127, 34);
 }
 
-.register .container {
+/* .register .container {
   display: flex; 
 }
-
+ */
 
 /* 
 .eyes {
@@ -21,14 +21,15 @@
 } */
 
 #eyes {
-  position: relative; 
-  left: -130%;
+  position: relative;
+    left: -40%;
+    margin-bottom: 40px;
 }
 
 #hand {
   position: relative;
-  top: 80px;
-  left: -40%;
+  top: -10px;
+  left: -65px;
   align-self: flex-end; 
 }
 
@@ -66,7 +67,7 @@ h2 {
   background: none;
   border: 0;
   border-bottom: 1px solid #FEFEF3;
-  width: 100%;
+  width: 57%;
   padding: 8px 0;
   font-size: 24px;
   outline: none;

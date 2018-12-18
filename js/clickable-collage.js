@@ -2,12 +2,14 @@ const images = [
   'img/Badminton.svg',
   'img/Green-Circle.svg',
   'img/Smiley.svg',
-  'img/banana.png',
-  'img/apricot.png',
-  'img/orange.png',
-  'img/mango.png',
-  'img/kiwi-etched.png',
-  'img/watermelon-etched.png',
+  'img/optimised/banana.png',
+  'img/optimised/apricot.png',
+  'img/optimised/orange.png',
+
+  
+  'img/optimised/mango.png',
+  'img/optimised/kiwi-etched.png',
+  'img/optimised/watermelon-etched.png',
   'img/Raquettes-Logo-white.svg',
 ]
 
