@@ -354,7 +354,7 @@ ul, li {
 .sec-heading__one {
   position: relative;
   display: inline-block;
-  top: -200px;
+  top: -160px;
 }
 
 .sec-heading__four,
@@ -376,12 +376,13 @@ ul, li {
 
 .sec-heading__three {
   position: relative;
-  top: -90px; 
+  top: -50px; 
 }
 
 .sec-heading__four {
   max-width: 500px;
   left: 20%; 
+  margin-top: 50px; 
 }
 
  
@@ -519,7 +520,7 @@ table {
 
 .sec-heading__six {
   position: relative;
-  top: -140px;
+  top: -120px;
   display: inline-block; 
   left: 38%; 
 }
