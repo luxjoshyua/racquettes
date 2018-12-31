@@ -34,23 +34,6 @@
 }
 
 
-/* .eyes, .hand {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; 
-}
-
-.hand {
-  position: relative;
-  top: 110px;
-  right: 90px; 
-  width: 57px;
-  height: 89px;
-  background-image: url(../img/ok_hand-cream.svg); 
-  align-self: flex-end; 
-} */
-
-
 .form {
   position: relative;
   left: -5%;
@@ -90,12 +73,10 @@ h2 {
 .button {
   position: relative;
   display: inline-block;
+  margin-top: 120px; 
   background-color: var(--blue);
-  /* border: solid 2px #FFEED1; */
   border: solid 2px #000;
   top: -20px;
-  /* color: #FFEED1;  */
-  
   color: #000 !important; 
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -107,15 +88,12 @@ h2 {
   text-decoration: none;
 }
 
-
 .button:hover {
   pointer-events: auto;
   background-color: #fff;
   color: #000 !important;
   transition-delay: 200ms; 
 }
-
-
 
 .menu__bottom, .menu-item__bottom {
   position: absolute;
