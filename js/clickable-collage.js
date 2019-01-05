@@ -5,8 +5,6 @@ const images = [
   'img/optimised/banana.png',
   'img/optimised/apricot.png',
   'img/optimised/orange.png',
-
-  
   'img/optimised/mango.png',
   'img/optimised/kiwi-etched.png',
   'img/optimised/watermelon-etched.png',

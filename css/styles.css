@@ -226,7 +226,6 @@ ul, li {
   margin-top: 20vh;
 }
 
-
 /* ==== hero section styling here ==== */
 
 .logo-wrapper {
@@ -250,13 +249,12 @@ ul, li {
   line-height: 1;
 }
 
-.wave-underline {
+/* .wave-underline {
   position: relative;
   display: inline-block;
   top: -70px;
   width: 100%;
-}
-
+} */
 
 /* ==== social links here ==== */
 .menu, .menu-item {
@@ -344,7 +342,6 @@ ul, li {
 }
 
 /* ==== sec one image styling ==== */
-
 .racquette__one h3,
 .racquette__two h3,
 .racquette__three h3,
@@ -438,7 +435,6 @@ table {
 
 
 /* ==== SEC SIX styling here ==== */
-
 .sec-heading__six {
   position: relative;
   top: -120px;

@@ -33,7 +33,6 @@
   align-self: flex-end; 
 }
 
-
 .form {
   position: relative;
   left: -5%;
@@ -62,7 +61,6 @@ h2 {
 .input::placeholder {
   color: #FEFEF3; 
 }
-
 
 .footer {
   min-height: 35vh;
