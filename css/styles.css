@@ -40,6 +40,7 @@ a {
 a:hover {
   color: #000; 
   font-style: italic; 
+  transition: .5s ease-in; 
 }
 
 a:hover, a:focus, a:visited, a:link, a:active {
@@ -61,7 +62,7 @@ ul, li {
 .bar-3 {
   position: fixed;
   height: 8px;
-  background-color: #3363A7;
+  background-color: #fff;
   z-index: 900;
   width: 0%;
   box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.18); 
