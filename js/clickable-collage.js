@@ -1,5 +1,4 @@
-// existing working collage code
-const imageSources = [
+const images = [
   'img/Badminton.svg',
   'img/Green-Circle.svg',
   'img/Smiley.svg',
@@ -10,70 +9,12 @@ const imageSources = [
   'img/optimised/kiwi-etched.png',
   'img/optimised/watermelon-etched.png',
   'img/Raquettes-Logo-white.svg',
-];
+]
 
-let images = [];
-for (let i = 0; i < imageSources.length; i++) {
-  let x = new Image();
-  x.src = imageSources[i];
-  images.push(x);
-}
-
-let index = 0
-
-
-function distanceBetween(point1, point2) {
-  return Math.sqrt(Math.pow(point2.x - point1.x, 2) + Math.pow(point2.y - point1.y, 2));
-}
-
-function angleBetween(point1, point2) {
-  return Math.atan2(point2.x - point1.x, point2.y - point1.y);
-}
-
-var el = document.getElementById('c');
-var ctx = el.getContext('2d');
-ctx.lineJoin = ctx.lineCap = 'round';
-
-var isDrawing, lastPoint;
-
-el.onmousedown = function (e) {
-  isDrawing = true;
-  lastPoint = {
-    x: e.clientX,
-    y: e.clientY
-  };
-};
-
-el.onmousemove = function (e) {
-  if (!isDrawing) return;
-
-  var currentPoint = {
-    x: e.clientX,
-    y: e.clientY
-  };
-  var dist = distanceBetween(lastPoint, currentPoint);
-  var angle = angleBetween(lastPoint, currentPoint);
-
-  for (var i = 0; i < dist; i++) {
-    x = lastPoint.x + (Math.sin(angle) * i) - 160;
-    y = lastPoint.y + (Math.cos(angle) * i) - 160;
-    ctx.drawImage(img, x, y);
-  }
-
-  lastPoint = currentPoint;
-};
-
-el.onmouseup = function () {
-  isDrawing = false;
-  index += 1;
-  if (index >= images.length) {
-    index = 0;
-  }
-};
-
+let i = 0
 
 function placeImage(x, y) {
-  const nextSrc = images[index]
+  const nextSrc = images[i]
 
   const img = document.createElement("img")
   img.setAttribute("src", nextSrc)
