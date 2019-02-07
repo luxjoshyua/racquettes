@@ -250,13 +250,6 @@ ul, li {
   line-height: 1;
 }
 
-/* .wave-underline {
-  position: relative;
-  display: inline-block;
-  top: -70px;
-  width: 100%;
-} */
-
 /* ==== social links here ==== */
 .menu, .menu-item {
   position: absolute;
@@ -328,7 +321,7 @@ ul, li {
 }
 
 .sec-p-text {
-  margin-top: 60px;
+  margin-top: 10px; 
 }
 
 .sec-p-text p,
@@ -415,7 +408,8 @@ ul, li {
 /* ==== SEC THREE styling here ==== */
 .sec-3-timetable {
   position: relative;
-  margin-top: 20px; 
+  margin-top: -15px;
+  margin-bottom: 50px;
 }
 
 .sec-3-timetable td {
@@ -456,11 +450,8 @@ table {
   background-position: center;
   /* this centers the arrow */
   transform: translateX(-50%);
-  background-image: url(../img/down-arrow.svg)
-}
-
-.scroll-to-intro {
-  background-image: url(../img/down-arrow-light.svg); 
+  background-image: url(../img/down-arrow.svg);
+  z-index: 2;
 }
 
 .scroll-to-second {
@@ -475,6 +466,7 @@ table {
   /* this centers the arrow */
   transform: translateX(-50%);
   background-image: url(../img/down-arrow-light.svg); 
+  z-index: 2;
 }
 
 .scroll-to:hover,
@@ -487,4 +479,6 @@ table {
 }
 
 /* ==== media queries go here ==== */
-@media (max-width: 800px)
+@media (max-width: 800px) {
+
+}
