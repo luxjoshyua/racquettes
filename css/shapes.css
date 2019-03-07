@@ -2,6 +2,7 @@
 
 .shape {
   position: absolute; 
+  z-index: 2;
 }
 
 .circle {
