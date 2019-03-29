@@ -1,6 +1,11 @@
-body,
-html {
-  min-height: 100%;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* we declare our variable inside a :root selector */
@@ -10,9 +15,7 @@ html {
   --blue: #B7EEE2; 
 }
 
-*,
-*:before,
-*:after {
+.intro:hover {
   cursor: url('../img/cursor-red.svg'), auto;
 }
 
@@ -207,7 +210,6 @@ ul, li {
 .hero-outline-text-green h1 {
   font-family: 'Karla', sans-serif;
   font-size: 20vh;
-  /* -webkit-text-stroke: 2.5px #3bb714; */
   -webkit-text-stroke: 2.5px #000;
   color: transparent; 
   fill: none;
@@ -218,7 +220,6 @@ ul, li {
 .hero-outline-text-blue h1 {
   font-family: 'Karla', sans-serif;
   font-size: 20vh;
-  /* -webkit-text-stroke: 2.5px #0000ff; */
   -webkit-text-stroke: 2.5px #000;
   color: transparent; 
   fill: none;
@@ -226,7 +227,7 @@ ul, li {
   margin-top: 20vh;
 }
 
-/* ==== hero section styling here ==== */
+/* ==== hero section styling ==== */
 
 .logo-wrapper {
   position: relative;
@@ -244,7 +245,6 @@ ul, li {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #fff;
   font-family: 'HK-Grotesk-Bold', sans-serif;
-  /* font-size: 110px; */
   font-size: 90px;
   line-height: 1;
   text-align: center; 
@@ -260,20 +260,32 @@ ul, li {
   mix-blend-mode: difference; 
 }
 
-.menu, .email-link {
+.menu, .gallery-link {
+  top: 40px; 
+  left: 30px;
+}
+
+.menu, .about-link {
   bottom: 40px;
   left: 30px; 
 }
 
-.menu, .instagram-link {
+.menu, .racquettes-link {
   top: 40px; 
   right: 30px; 
 }
 
-.menu, .facebook-link {
+.menu, .membership-link {
   bottom: 40px; 
   right: 30px; 
 }
+
+.menu-item a {
+  color: #fff; 
+  transition: none; 
+}
+
+
 
 /* ==== sec blocks here ==== */
 .sec-1 {
@@ -293,12 +305,16 @@ ul, li {
 }
 
 .sec-5 {
-  /* background-color: #FFDCD9;  */
   background-color: #333366;
 }
 
 .sec-6 {
   background-color: rgb(15, 127, 34);
+}
+
+.sec-gallery {
+  background-color: rgb(238, 126, 116);   
+
 }
 
 .sec {
@@ -318,19 +334,21 @@ ul, li {
   position: relative;
   margin-top: 40px; 
   text-align: center; 
+  z-index: 3; 
 }
 
 .sec-p-text {
-  margin: 10px 0 20px; 
-  
+  margin: 10px 0 20px;  
 }
 
 .sec-p-text p,
 .sec-p-text p,
 .sec-p-text p,
 .sec-p-text p {
+  position: relative;
+  z-index: 3;
   display: inline-block;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.3; 
   color: #fff; 
   justify-content: space-between; 
@@ -385,8 +403,6 @@ ul, li {
   position: relative;
   max-width: 200px;
   max-height: 300px;
-  /* top: -150px;
-  left: -250px; */
 }
 
 .racquette__three {
@@ -406,7 +422,7 @@ ul, li {
 }
 
 
-/* ==== SEC THREE styling here ==== */
+/* ==== SEC THREE styling ==== */
 .sec-3-timetable {
   position: relative;
   margin-top: -15px;
@@ -429,8 +445,7 @@ table {
   border: 2px solid #fff; 
 }
 
-
-/* ==== SEC SIX styling here ==== */
+/* ==== SEC SIX styling ==== */
 .sec-heading__six {
   position: relative;
   top: -120px;
@@ -438,24 +453,8 @@ table {
   left: 38%; 
 }
 
-
-/* ==== scrolling effect here ==== */
+/* ==== scrolling effect ==== */
 .scroll-to {
-  position: absolute; 
-  left: 50%;
-  bottom: 3vh;
-	width: 64px;
-  height: 32px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* this centers the arrow */
-  transform: translateX(-50%);
-  background-image: url(../img/down-arrow.svg);
-  z-index: 2;
-}
-
-.scroll-to-second {
   position: absolute; 
   left: 50%;
   bottom: 3vh;
@@ -477,6 +476,18 @@ table {
   margin-bottom: 20px;
 }
 
+
+
+
+/* text fade-in animation */
+
+h1, h2, h3, p, a, .sec-heading {
+  opacity: 0 !important;
+}
+
+
+
+
 /* ==== media queries ==== */
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -497,8 +508,6 @@ table {
   .sec-p-text p, .sec-p-text p, .sec-p-text p, .sec-p-text p {
     font-size: 28px; 
   }
-
-
 
 
  }
